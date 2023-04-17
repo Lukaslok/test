@@ -102,6 +102,32 @@
 	}
 }
 
+
+
+@font-face {
+	font-family: 'noto_sansbold';
+	src: url('/fonts/notosans-bold-webfont.woff2') format('woff2'),
+		url('/fonts/notosans-bold-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'noto_sansitalic';
+	src: url('/fonts/notosans-italic-webfont.woff2') format('woff2'),
+		url('/fonts/notosans-italic-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'noto';
+	src: url('/fonts/notosans-regular-webfont.woff2') format('woff2'),
+		url('/fonts/notosans-regular-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
 *,
 *::after,
 *::before {
@@ -116,7 +142,7 @@ html {
 }
 
 body {
-	font-family: 'Noto Sans', sans-serif;
+	font-family: 'noto';
 	font-size: 1.6rem;
 }
 
@@ -188,7 +214,7 @@ body {
 			display: flex;
 			flex-direction: column;
 			color: $secondary-color;
-			font-family: 'Lora', serif;
+			font-family: 'noto', serif;
 			font-size: 70px;
 			letter-spacing: 15px;
 			text-transform: uppercase;
@@ -219,7 +245,7 @@ body {
 			margin: 0.5em 0;
 			color: rgb(255 188 0);
 			font-size: 3.5rem;
-			font-family: 'Lora', serif;
+			font-family: 'noto', serif;
 			text-align: center;
 			text-transform: uppercase;
 			letter-spacing: 10px;
@@ -581,7 +607,6 @@ body {
 //MEDIA
 
 @media (max-width: 576px) {
-	
 	.offers {
 		&__box {
 			display: block;
