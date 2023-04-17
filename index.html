@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agroturystyka pod grzybkiem</title>
+    <meta name="description" content="Zarezerwuj u nas nocleg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,400;1,700&family=Noto+Sans:wght@400;700&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/df0853e9c0.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+
+<body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="82">
+
+    <nav id="navbar" class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+
+
+            <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="#offers">Oferty</a>
+                    <a class="nav-link" href="#rooms">Pokoje</a>
+                    <a class="nav-link" href="#price">Cennik</a>
+                    <a class="nav-link" href="#contact">Kontakt</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <header class="header">
+
+        <div class="wrapper">
+            <div class="header__img">
+                <div class="header__bg "></div>
+                <div class="header__text">
+                    <h1 class="header__text-heading">Agroturystyka<span class="header__text--title">pod grzybkiem</span>
+                    </h1>
+                    <p class="header__text-p">Witajcie w miejscu, gdzie ludzie zawsze wychodzą uśmiechnięci</p>
+                    <a href="#offers" class="header__btn">Poznaj nas</a>
+                </div>
+                <a href="#offers"><i class="fa-solid fa-chevron-down bounce-top"></i></a>
+            </div>
+        </div>
+    </header>
+
+
+    <main class="main" id="offers">
+        <section class="offers section-padding">
+
+            <div class="wrapper">
+                <h2 class="section-heading">Oferty</h2>
+
+                <div class="offers__box">
+                    <div class="offers__box-img">
+                        <img src="./img/widoki-mini.webp" alt="Stolik z krzesłami z widokiem na góry">
+                    </div>
+
+                    <div class="offers__box-info">
+                        <h3 class="offers__box-title">Widoki</h3>
+                        <p class="offers__box-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est,
+                            tempora
+                            quam. Excepturi officiis ipsum mollitia nulla. Commodi obcaecati necessitatibus est!
+                        </p>
+                    </div>
+                </div>
+
+                <div class="offers__box">
+                    <div class="offers__box-img offers__box-img--right">
+                        <img src="./img/jedzenie-mini.webp" alt="Obiad" class="offers__box-img--right">
+                    </div>
+
+                    <div class="offers__box-info">
+                        <h3 class="offers__box-title">Jedzenie</h3>
+                        <p class="offers__box-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est,
+                            tempora
+                            quam. Excepturi officiis ipsum mollitia nulla. Commodi obcaecati necessitatibus est!
+                        </p>
+                    </div>
+                </div>
+
+                <div class="offers__box">
+                    <div class="offers__box-img">
+                        <img src="./img/kawa-mini.webp" alt="Strefa wypoczynkowa, w otoczeniu drzew">
+                    </div>
+
+                    <div class="offers__box-info">
+                        <h3 class="offers__box-title">Kawa</h3>
+                        <p class="offers__box-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est,
+                            tempora
+                            quam. Excepturi officiis ipsum mollitia nulla. Commodi obcaecati necessitatibus est!
+                        </p>
+                    </div>
+                </div>
+
+                <div class="offers__box">
+                    <div class="offers__box-img offers__box-img--right">
+                        <img src="./img/altanka-mini.webp" alt="Altanka z grillem" class="offers__box-img--right">
+                    </div>
+
+                    <div class="offers__box-info">
+                        <h3 class="offers__box-title">Zabawa</h3>
+                        <p class="offers__box-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est,
+                            tempora
+                            quam. Excepturi officiis ipsum mollitia nulla. Commodi obcaecati necessitatibus est!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="rooms section-padding" id="rooms">
+            <div class="container">
+                <div class="wrapper">
+
+                    <div class="section-heading">Pokoje</div>
+
+                    <div id="carouselExampleCaptions" class="carousel slide">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div>
+
+                        <div class="carousel-inner ">
+                            <div class="carousel-item active">
+                                <img src="./img/pokojnr1.webp" class="w-100 d-block" alt="pokoj dla 3 osob">
+                                <div class="carousel-caption d-md-block">
+                                    <h2>Pokój nr 1</h2>
+                                    <p>Pokój znajdujący się na parterze, dla 3 osób.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./img/pokojnr2.webp" class="w-100 d-block" alt="pokój na piętrze dla 4 osób">
+                                <div class="carousel-caption d-md-block">
+                                    <h2>Pokój nr 2</h2>
+                                    <p>Pokój znajdujący się na piętrze, dla 4 osób.</p>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item">
+                                <img src="./img/pokojnr3.webp" class="w-100 d-block" alt="Pokój na piętrze dla 4 osób">
+                                <div class="carousel-caption d-md-block">
+                                    <h2>Pokój nr 3</h2>
+                                    <p>Pokój znajdujący się na piętrze, dla 4 osób.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="price section-padding" id="price">
+            <div class="container">
+                <div class="wrapper">
+                    <div class="section-heading">Cennik</div>
+
+
+                    <div class="price__box">
+                        <h2 class="price__box-title">Pokój nr 1</h2>
+                        <hr>
+                        <div class="price__box-text">
+                            <p><span class="price__box-text-main">TV:</span> Tak</p>
+                            <p><span class="price__box-text-main">Liczba miejsc:</span> 4</p>
+                            <p><span class="price__box-text-main">Łazienka wspólna:</span> Tak</p>
+                            <p><span class="price__box-text-main">Łazienka prywatna:</span> Nie</p>
+                            <p class="price-heading">80zł</p>
+                            <button class="btn">Wybieram</button>
+                        </div>
+                    </div>
+                    <div class="price__box">
+                        <h2 class="price__box-title">Pokój nr 2</h2>
+                        <hr>
+                        <div class="price__box-text">
+                            <p><span class="price__box-text-main">TV:</span> Tak</p>
+                            <p><span class="price__box-text-main">Liczba miejsc:</span> 4</p>
+                            <p><span class="price__box-text-main">Łazienka wspólna:</span> Tak</p>
+                            <p><span class="price__box-text-main">Łazienka prywatna:</span> Nie</p>
+                            <p class="price-heading">80zł</p>
+                            <button class="btn">Wybieram</button>
+                        </div>
+                    </div>
+                    <div class="price__box price__box--left">
+                        <h2 class="price__box-title">Pokój nr 3</h2>
+                        <hr>
+                        <div class="price__box-text">
+                            <p><span class="price__box-text-main">TV:</span> Tak</p>
+                            <p><span class="price__box-text-main">Liczba miejsc:</span> 4</p>
+                            <p><span class="price__box-text-main">Łazienka wspólna:</span> Tak</p>
+                            <p><span class="price__box-text-main">Łazienka prywatna:</span> Nie</p>
+                            <p class="price-heading">80zł</p>
+                            <button class="btn">Wybieram</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cards section-padding">
+            <div class="section-heading">Prodkuty</div>
+            <div class="card">
+                <div class="img one"></div>
+                <div class="text text-one">
+                    <h3>Prawdziwki</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="img two"></div>
+                <div class="text text-two">
+                    <h3>Kurki</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="img three"></div>
+                <div class="text text-three">
+                    <h3>Rydze</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact section-padding" id="contact">
+            <div class="container">
+
+                <div class="section-heading">Kontakt</div>
+
+                <div class="contact__box">
+                    <div class="contact__box-item">
+                        <h3>Adres</h3>
+                        <p>Hańczowa 110</p>
+                        <p>000-000 Wysowa-zdrój</p>
+                        <p>+48 555 444 333</p>
+                        <p>podgrzybkiem800@gmail.com</p>
+                    </div>
+
+                    <div class="contact__box-social">
+                        <h3>Media społecznościowe</h3>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-dark text-light py-4 text-center">
+        <p class="mb-0"> &copy; 2023 | Agroturystyka pod grzybkiem</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
+        </script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
